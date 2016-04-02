@@ -12,6 +12,11 @@
 		3B6ADDC71CAF52DF000F6B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ADDC51CAF52DF000F6B7D /* Main.storyboard */; };
 		3B6ADDC91CAF52DF000F6B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ADDC81CAF52DF000F6B7D /* Assets.xcassets */; };
 		3B6ADDCC1CAF52DF000F6B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ADDCA1CAF52DF000F6B7D /* LaunchScreen.storyboard */; };
+		3BB7DAB11CB025190025DD35 /* Vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DAB01CB025190025DD35 /* Vista2.swift */; };
+		3BB7DAB31CB02B8F0025DD35 /* Vista3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DAB21CB02B8F0025DD35 /* Vista3.swift */; };
+		3BB7DAB51CB02BEA0025DD35 /* Vista4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DAB41CB02BEA0025DD35 /* Vista4.swift */; };
+		3BB7DAB71CB02C1F0025DD35 /* Vista5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DAB61CB02C1F0025DD35 /* Vista5.swift */; };
+		3BB7DAB91CB02CE70025DD35 /* Vista6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7DAB81CB02CE70025DD35 /* Vista6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3B6ADDC81CAF52DF000F6B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6ADDCB1CAF52DF000F6B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6ADDCD1CAF52DF000F6B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB7DAB01CB025190025DD35 /* Vista2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista2.swift; sourceTree = "<group>"; };
+		3BB7DAB21CB02B8F0025DD35 /* Vista3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista3.swift; sourceTree = "<group>"; };
+		3BB7DAB41CB02BEA0025DD35 /* Vista4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista4.swift; sourceTree = "<group>"; };
+		3BB7DAB61CB02C1F0025DD35 /* Vista5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista5.swift; sourceTree = "<group>"; };
+		3BB7DAB81CB02CE70025DD35 /* Vista6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				3B6ADDC81CAF52DF000F6B7D /* Assets.xcassets */,
 				3B6ADDCA1CAF52DF000F6B7D /* LaunchScreen.storyboard */,
 				3B6ADDCD1CAF52DF000F6B7D /* Info.plist */,
+				3BB7DAB01CB025190025DD35 /* Vista2.swift */,
+				3BB7DAB21CB02B8F0025DD35 /* Vista3.swift */,
+				3BB7DAB41CB02BEA0025DD35 /* Vista4.swift */,
+				3BB7DAB61CB02C1F0025DD35 /* Vista5.swift */,
+				3BB7DAB81CB02CE70025DD35 /* Vista6.swift */,
 			);
 			path = PizzeriaItaliana;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB7DAB51CB02BEA0025DD35 /* Vista4.swift in Sources */,
 				3B6ADDC41CAF52DF000F6B7D /* ViewController.swift in Sources */,
+				3BB7DAB31CB02B8F0025DD35 /* Vista3.swift in Sources */,
 				3B6ADDC21CAF52DF000F6B7D /* AppDelegate.swift in Sources */,
+				3BB7DAB11CB025190025DD35 /* Vista2.swift in Sources */,
+				3BB7DAB91CB02CE70025DD35 /* Vista6.swift in Sources */,
+				3BB7DAB71CB02C1F0025DD35 /* Vista5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				3B6ADDD21CAF52DF000F6B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
